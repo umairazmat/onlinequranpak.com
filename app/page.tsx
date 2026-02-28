@@ -1,1 +1,5 @@
-export { default } from "./(public-routes)/home/page";
+import MaintenancePage from "@/components/MaintenancePage";
+
+export default function RootPage() {
+  return <MaintenancePage />;
+}
