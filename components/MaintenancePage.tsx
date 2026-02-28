@@ -31,7 +31,16 @@ export default function MaintenancePage() {
             For admissions &amp; classes
           </h2>
           <p className="text-sm text-zinc-600 dark:text-zinc-300">
-            📞 WhatsApp: <span className="font-medium">+92 XXX XXXXXXX</span>
+            📞 WhatsApp:{" "}
+            <a
+              href="https://wa.me/923396260260"
+              target="_blank"
+              rel="noreferrer"
+              title="Chat on WhatsApp"
+              className="font-medium text-emerald-600 hover:underline"
+            >
+              +92 339 6260260
+            </a>
             <br />
             ✉️ Email:{" "}
             <a
